@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+[RequireComponent(typeof(Collider))]
 public class GravityZone : MonoBehaviour
 {
     internal HashSet<Rigidbody> AffectedBodies { get; set; } = new HashSet<Rigidbody>();

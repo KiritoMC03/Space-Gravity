@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(Collider))]
 public class PlanetGravity : MonoBehaviour
 {
     [SerializeField] private GravityZone _gravityZone;
